@@ -1335,3 +1335,112 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.04.03-16.17.36:146][995]LogContentBrowser: End creating deferred item NewFolder
 [2024.04.03-16.17.48:512][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2024.04.03-16.17.48:703][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.03-16.19.27:905][121]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: ================================================
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: Total job queries 139, among them cache hits 18 (12.95%)
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: Tracking 121 distinct input hashes that result in 98 distinct outputs (80.99%)
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: RAM used: 1.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.03-16.19.31:321][321]LogShaderCompilers: Display: ================================================
+[2024.04.03-16.19.34:424][505]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.04.03-16.19.34:526][505]LogScript: Warning: Attempted to access REINST_BP_ThirdPersonCharacter_C_0 via property Character, but REINST_BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_1:PersistentLevel.REINST_BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_Quinn_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:038D
+[2024.04.03-16.19.34:526][505]LogScript: Warning: Attempted to access REINST_BP_ThirdPersonCharacter_C_0 via property Character, but REINST_BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_5:PersistentLevel.REINST_BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_Quinn_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:038D
+[2024.04.03-16.19.34:527][505]LogScript: Warning: Attempted to access REINST_BP_ThirdPersonCharacter_C_0 via property Character, but REINST_BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_2:PersistentLevel.REINST_BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_Quinn_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:038D
+[2024.04.03-16.19.34:527][505]LogScript: Warning: Attempted to access REINST_BP_EnemyCharacter_C_0 via property Character, but REINST_BP_EnemyCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Quinn_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_EnemyCharacter_C_0.CharacterMesh0.ABP_Quinn_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:038D
+[2024.04.03-16.19.34:565][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.03-16.19.35:110][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-16.19.35:193][532]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.04.03-16.19.35:193][532]LogSavePackage: Moving '../../../../../DGitHub/UE5-Basic-Melee-Combat-System/BasicMeleeCombat/Saved/BP_ThirdPersonCharacter9EC850904B29895E8959E5AD472B9FCE.tmp' to '../../../../../DGitHub/UE5-Basic-Melee-Combat-System/BasicMeleeCombat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.04.03-16.19.35:199][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 908 ms)
+[2024.04.03-16.19.35:210][532]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.04.03-16.19.35:210][532]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.04.03-16.19.38:620][734]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter
+[2024.04.03-16.19.38:621][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-16.19.40:922][841]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-16.19.40:922][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-16.19.40:947][841]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter
+[2024.04.03-16.19.40:947][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-16.19.42:650][912]LogViewport: Scene viewport resized to 1074x693, mode Windowed.
+[2024.04.03-16.19.54:760][615]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2024.04.03-16.19.54:855][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.03-16.19.55:277][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-16.19.55:354][634]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_EnemyCharacter
+[2024.04.03-16.19.55:355][634]LogSavePackage: Moving '../../../../../DGitHub/UE5-Basic-Melee-Combat-System/BasicMeleeCombat/Saved/BP_EnemyCharacterA1B9B3C94515A435A41F2BADFE8DDA9D.tmp' to '../../../../../DGitHub/UE5-Basic-Melee-Combat-System/BasicMeleeCombat/Content/ThirdPerson/Blueprints/BP_EnemyCharacter.uasset'
+[2024.04.03-16.19.55:360][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 991 ms)
+[2024.04.03-16.19.55:365][634]AssetCheck: New page: Asset Save: BP_EnemyCharacter
+[2024.04.03-16.19.55:365][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter
+[2024.04.03-16.19.56:595][708]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.03-16.19.56:600][708]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2024.04.03-16.19.56:601][708]LogWorldPartition: Display: GenerateStreaming started...
+[2024.04.03-16.19.56:601][708]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.04.03-16.19.56:601][708]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 18 us)
+[2024.04.03-16.19.56:601][708]LogWorldPartition: Display: GenerateStreaming took 197 us (total: 402 us)
+[2024.04.03-16.19.56:602][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.03-16.19.56:602][708]PIE: New page: PIE session: ThirdPersonMap (3 Nis 2024 22:19:56)
+[2024.04.03-16.19.56:602][708]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.03-16.19.56:607][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005345s)
+[2024.04.03-16.19.56:607][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005377s)
+[2024.04.03-16.19.56:607][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-16.19.56:608][708]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.03-16.19.56:608][708]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.04.03-16.19.56:608][708]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.03-16.19.56:608][708]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.04.03-16.19.56:609][708]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.04.03-16.19.56:609][708]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 227 ms)
+[2024.04.03-16.19.56:609][708]LogPlayLevel: PIE: World Init took: (0.002324s)
+[2024.04.03-16.19.56:649][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.03-16.19.56:650][708]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.03-16.19.56:650][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.03-16.19.56:650][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.03-16.19.56:651][708]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.03-16.19.56:651][708]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.03-16.19.56:651][708]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.03-16.19.56:653][708]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.03-16.19.56:665][708]LogAudioMixer: Display: Using Audio Hardware Device Hoparlör (2- USBFC1-A)
+[2024.04.03-16.19.56:666][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.03-16.19.56:666][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.03-16.19.56:666][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.03-16.19.56:666][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.04.03-16.19.56:666][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.04.03-16.19.56:668][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.04.03-16.19.56:668][708]LogInit: FAudioDevice initialized.
+[2024.04.03-16.19.56:668][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.04.03-16.19.56:668][708]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2024.04.03-16.19.56:670][708]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.03-16.19.56:674][708]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.04.03-19.19.56
+[2024.04.03-16.19.56:675][708]LogWorld: Bringing up level for play took: 0.004051
+[2024.04.03-16.19.56:677][708]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.04.03-16.19.56:680][708]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2024.04.03-16.19.56:680][708]PIE: Server logged in
+[2024.04.03-16.19.56:681][708]PIE: Play in editor total start time 0,081 seconds.
+[2024.04.03-16.19.57:882][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-16.19.57:882][776]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.03-16.19.57:882][776]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-16.19.57:883][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-16.19.57:883][776]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2024.04.03-16.19.57:886][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.03-16.19.57:890][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-16.19.57:929][776]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.03-16.19.57:930][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.03-16.19.57:931][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.03-16.19.57:935][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-16.19.57:938][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.04.03-16.19.57:971][777]LogPlayLevel: Display: Destroying online subsystem :Context_12
